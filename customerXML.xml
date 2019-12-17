@@ -1,0 +1,17 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cus="http://www.example.org/CustomerInformation/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cus:getCustomerDetailsResponse>
+         <getCustomerDetailsResponse>
+            <firstName>Marko</firstName>
+            <lastName>Markovic</lastName>
+            <contactEmail>marko@gmail.com</contactEmail>
+            <contactPhone>0641234567</contactPhone>
+            <age>30</age>
+            <martialStatus>Single</martialStatus>
+            <address>Vodovodska 10</address>
+            <city>Belgrade</city>
+         </getCustomerDetailsResponse>
+      </cus:getCustomerDetailsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
